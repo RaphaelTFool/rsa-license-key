@@ -11,6 +11,8 @@ On centos/redhat:
 
     sudo yum install cryptopp-dev libxml2-dev
 
+Notice that headerfiles in the two OS above is different !
+
 Compile using "make"
 
 genmasterpair - to generate master keys. Keep the private master key in an ultra secure place.
