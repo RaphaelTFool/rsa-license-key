@@ -7,6 +7,10 @@ On debian/ubuntu/mint:
 
     sudo apt-get install libcrypto++-dev libxml2-dev
 
+On centos/redhat:
+
+    sudo yum install cryptopp-dev libxml2-dev
+
 Compile using "make"
 
 genmasterpair - to generate master keys. Keep the private master key in an ultra secure place.

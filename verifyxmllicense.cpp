@@ -8,10 +8,10 @@
 using namespace std;
 #include <libxml/parser.h>
 #include <libxml/tree.h>
-#include <crypto++/rsa.h>
-#include <crypto++/osrng.h>
-#include <crypto++/base64.h>
-#include <crypto++/files.h>
+#include <cryptopp/rsa.h>
+#include <cryptopp/osrng.h>
+#include <cryptopp/base64.h>
+#include <cryptopp/files.h>
 using namespace CryptoPP;
 
 vector<vector<string> > ParseInfo(xmlNode *el)

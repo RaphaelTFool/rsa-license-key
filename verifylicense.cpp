@@ -1,10 +1,10 @@
 //g++ verifylicense.cpp -lcrypto++ -o verifylicense
 #include <string>
 using namespace std;
-#include <crypto++/rsa.h>
-#include <crypto++/osrng.h>
-#include <crypto++/base64.h>
-#include <crypto++/files.h>
+#include <cryptopp/rsa.h>
+#include <cryptopp/osrng.h>
+#include <cryptopp/base64.h>
+#include <cryptopp/files.h>
 using namespace CryptoPP;
 
 int VerifyLicense()

@@ -2,13 +2,13 @@
 
 #include <string>
 using namespace std;
-#include <crypto++/rsa.h>
-#include <crypto++/osrng.h>
-#include <crypto++/base64.h>
-#include <crypto++/files.h>
-#include <crypto++/aes.h>
-#include <crypto++/modes.h>
-#include <crypto++/ripemd.h>
+#include <cryptopp/rsa.h>
+#include <cryptopp/osrng.h>
+#include <cryptopp/base64.h>
+#include <cryptopp/files.h>
+#include <cryptopp/aes.h>
+#include <cryptopp/modes.h>
+#include <cryptopp/ripemd.h>
 using namespace CryptoPP;
 
 void SignLicense(AutoSeededRandomPool &rng, string strContents, string pass)
